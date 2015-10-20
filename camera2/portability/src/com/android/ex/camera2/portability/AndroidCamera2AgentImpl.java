@@ -334,7 +334,7 @@ class AndroidCamera2AgentImpl extends CameraAgent {
                         mSession.stopRepeating();
                         changeState(AndroidCamera2StateHolder.CAMERA_PREVIEW_READY);
                         // PATCH_FOR_SLSIAP
-                        mSession.stopPreview();
+                        //mSession.stopPreview();
                         // END PATCH_FOR_SLSIAP
                         break;
                     }
